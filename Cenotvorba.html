@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cenotvorba</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class='zadani'>
+        <form method="POST">
+            <table>
+                <tr>
+                    <th>Maso</th> <th>Cena masa (za 1 Kg)</th> <th>Množství (v Kg)</th> <th>Odhad množství odřezů (v Kg)</th> 
+                </tr>
+                <tr>
+                    <td>Cena Vepřového:</td>
+                    <td><input name="cenaVeprove" type="text" value='139'></td>
+                    <td><input name="mnozstviVeprove" type="text" value="10"></td>
+                    <td><input name="odhadOrezuV" type="text" value="2"></td>
+                </tr>
+                <tr>
+                    <td>Cena Hovězího:</td>
+                    <td><input name="cenaHovezi" type="text"   value='235'></td>
+                    <td><input name="mnozstviHovezi" type="text" value='5'></td>
+                    <td><input name="odhadOrezuH" type="text" value='0'></td>
+                </tr>
+                <tr>
+                   <th>Marináda</th> <th>Cena položky</th> <th>Velikost balení (v g/ml)</th> <th></th> 
+                </tr>
+                <tr>
+                    <td>Cena Soli:</td>
+                    <td><input name="cenaSulBal" type="text" value='33'></td>
+                    <td><input name="velBalSul" type="text" value='500'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Cena Česneku:</td>
+                    <td><input name="cenaCesnekBal" type="text" value='24'></td>
+                    <td><input name="velBalCesnek" type="text" value='30'></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td>Cena Pepře:</td>
+                    <td><input name="cenaPeprBal" type="text" value="27"></td>
+                    <td><input name="velBalPepr" type="text" value='20'></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td>Cena Sojovky:</td>
+                    <td><input name="cenaSojovkaBal" type="text" value='60'></td>
+                    <td><input name="velBalSojovka" type="text" value='500'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Cena Octu:</td>
+                    <td><input name="cenaOcetBal" type="text" value='65'></td>
+                    <td><input name="velBalOcet" type="text" value='1000'></td>
+                    <td></td>
+                </tr> 
+                <tr>
+                    <th>Další náklady</th> <th></th> <th></th> <th></th> 
+                </tr>
+                <tr>
+                    <td><input name="typDalsiNaklad" type="text" placeholder="Doprava"></td>
+                    <td><input name="cenaDalsiNaklad" type="text" value="0"></td>
+                    <td><input name="velDalsiNaklad" type="text" value='1'></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th></th> 
+                    <th><input class="tlacitko" type="submit" value='Magic' formaction='calc.php' ></th> 
+                    <th><input class="tlacitko" type="submit" value="Spočítat potřebné množství" formaction="mnozstvi.php"></th>
+                    <th><input class="tlacitko" type="reset" value="Reset"></th> 
+                </tr>
+            </table>
+
+           
+        </form>
+        </div>
+        
+        
+
+
+    </body>
+</html>

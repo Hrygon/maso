@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5. 2. 2025, 4:22:19
+    Author     : David
+*/
+body {
+    background-color: rgb(69, 69, 69);
+}
+
+table,th,td {
+    border:3px solid black;
+    text-align: center;
+    border-radius: 6px;
+}
+th {
+    background-color: rgb(90, 165, 95);
+}
+td {
+    background-color: lightgray;
+}
+input {
+    text-align: center;
+    border-style: hidden;
+    background-color: lightgray;
+}
+input.tlacitko {
+    border-style: hidden;
+    border-radius: 4px;
+    background-color: forestgreen;
+}
+div.zadani {
+    float: none;
+    position: absolute;
+    top: 33%;
+    left: 27%;
+}
+div.vysledek{
+    position: absolute;
+    left: 27%;
+}
+div.odhad {
+    float: none;
+    position: absolute;
+    top: 33%;
+    left: 27%;
+}
+input.back {
+    position: absolute;
+    top: 53.5%;
+    left: 32.5%;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: forestgreen;
+}
